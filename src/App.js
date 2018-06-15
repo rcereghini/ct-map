@@ -34,15 +34,15 @@ const App = () => {
   return(
   <div className='fullPage'>
     <div className='header'>
-      <img alt='' src="https://cleartitleaz.files.wordpress.com/2013/08/cropped-banner-wp4.jpg" style={{height:'75px'}}/>
+      <img alt='' src="http://www.cleartitleaz.com/wp-content/uploads/2016/01/logo.png" style={{height:'65px'}}/>
     </div>
     <div className='mapHolder'>
       <Map />
       <div className='eventContainer'>
-        <div className='eventBox eventBox-top'><h3>{events[0].title}</h3><p>{events[0].date}</p><p>{events[0].time}</p></div>
-        <div className='eventBox'><h3>{events[1].title}</h3><p>{events[1].date}</p><p>{events[1].time}</p></div>
-        <div className='eventBox'><h3>{events[2].title}</h3><p>{events[2].date}</p><p>{events[2].time}</p></div>
-        <div className='eventBox eventBox-bottom'><h3>{events[3].title}</h3><p>{events[3].date}</p><p>{events[3].time}</p></div>
+        <div className='eventBox eventBox-top'><h2>{events[0].title}</h2><h3>{events[0].date}</h3><h3>{events[0].time}</h3></div>
+        <div className='eventBox'><h2>{events[1].title}</h2><h3>{events[1].date}</h3><h3>{events[1].time}</h3></div>
+        <div className='eventBox'><h2>{events[2].title}</h2><h3>{events[2].date}</h3><h3>{events[2].time}</h3></div>
+        <div className='eventBox eventBox-bottom'><h2>{events[3].title}</h2><h3>{events[3].date}</h3><h3>{events[3].time}</h3></div>
       </div>
     </div>
     <Clock/>

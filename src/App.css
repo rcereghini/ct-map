@@ -1,6 +1,8 @@
 .header{
   padding:20px;
   color:white;
+  background: linear-gradient(to right, rgba(81,100,111,.9), rgba(60,73,81,.9), rgba(81,100,111,.9));;
+  margin-bottom:60px;
   margin-top:0;
   text-align:center;
 }
@@ -15,24 +17,28 @@
   height:100vh;
   min-height:100vh;
   background: linear-gradient(to bottom, white, #E1F7FF);
+  background-image:url('http://duibe7slt06r7.cloudfront.net/Live/Binaries/en-US/images/downtown-phoenix-arizona-with-pink-sunset-in-the-background_tcm61-44907.jpg');
+  background-size: cover;
 }
 .eventContainer{
   display:flex;
   flex-direction:column;
-  height:100%;
+  height:72vh;
 }
 .eventBox{
-  height:25%;
+  height:18vh;
   width:250px;
   border:5px solid #00aeef;
-  background: linear-gradient(to bottom, #51646F, #3C4951);
+  background: linear-gradient(to bottom, rgba(81,100,111,.6), #3C4951);
   color:white;
   text-align:center;
-  line-height:1.3em;
+  line-height:1em;
   font-family:'MyriadPro';
   border-bottom:0;
   box-shadow: 0 2px 8px 2px rgba(20,23,28,.25);
   z-index:2;
+  display:flex;
+  flex-direction:column;
 }
 .eventBox-top{
   border-top-right-radius: 3px;
@@ -40,5 +46,4 @@
 .eventBox-bottom{
   border-bottom-right-radius: 3px;
   border-bottom: 5px solid #00aeef;
-
 }
