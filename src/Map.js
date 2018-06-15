@@ -44,6 +44,7 @@ render() {
           bootstrapURLKeys={{ key: 'AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo' }}
           defaultCenter={ this.props.center }
           defaultZoom={ this.props.zoom }>
+          <div className="whiteBox">Recently Closed Deals</div>
           <AnyReactComponent
             lat={ justClosed[0].lat }
             lng={ justClosed[0].lng }

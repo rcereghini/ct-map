@@ -22,10 +22,9 @@
   height:100%;
 }
 .eventBox{
-  height:24.25%;
+  height:25%;
   width:250px;
   border:5px solid #00aeef;
-  border-left:none;
   background: linear-gradient(to bottom, #51646F, #3C4951);
   color:white;
   text-align:center;
@@ -33,6 +32,7 @@
   font-family:'MyriadPro';
   border-bottom:0;
   box-shadow: 0 2px 8px 2px rgba(20,23,28,.25);
+  z-index:2;
 }
 .eventBox-top{
   border-top-right-radius: 3px;
