@@ -2,6 +2,32 @@ import React, { Component } from 'react'
 import GoogleMapReact from 'google-map-react'
 import './Map.css'
 
+const justClosed = [
+  {
+    lat: 33.5154665,
+    lng: -112.0665024,
+  },
+  {
+    lat: 33.5154665,
+    lng: -112.0665024,
+  },
+  {
+    lat: 33.5154665,
+    lng: -112.0665024,
+  },
+  {
+    lat: 33.5154665,
+    lng: -112.0665024,
+  },
+  {
+    lat: 33.5154665,
+    lng: -112.0665024,
+  },
+  {
+    lat: 33.5154665,
+    lng: -112.0665024,
+  }
+]
 
 const AnyReactComponent = ({ text }) => <div>{ text }</div>;
 
@@ -19,34 +45,34 @@ render() {
           defaultCenter={ this.props.center }
           defaultZoom={ this.props.zoom }>
           <AnyReactComponent
-            lat={ 33.5154665 }
-            lng={ -112.0665024 }
-            text={ <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
+            lat={ justClosed[0].lat }
+            lng={ justClosed[0].lng }
+            text={ <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
           />
           <AnyReactComponent
-            lat={ 33.4502168 }
-            lng={ -111.9248709 }
-            text={ <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
+            lat={ justClosed[1].lat }
+            lng={ justClosed[1].lng }
+            text={ <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
           />
           <AnyReactComponent
-            lat={ 33.473703 }
-            lng={ -111.9494185 }
-            text={ <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
+            lat={ justClosed[2].lat }
+            lng={ justClosed[2].lng }
+            text={ <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
           />
           <AnyReactComponent
-            lat={ 33.4739894 }
-            lng={ -111.8596396 }
-            text={ <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
+            lat={ justClosed[3].lat }
+            lng={ justClosed[3].lng }
+            text={ <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
           />
           <AnyReactComponent
-            lat={ 33.4407632 }
-            lng={ -111.8661627 }
-            text={ <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
+            lat={ justClosed[4].lat }
+            lng={ justClosed[4].lng }
+            text={ <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
           />
           <AnyReactComponent
-            lat={ 33.4295894 }
-            lng={ -111.9044432 }
-            text={ <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
+            lat={ justClosed[5].lat }
+            lng={ justClosed[5].lng }
+            text={ <img width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Map_marker.svg/390px-Map_marker.svg.png"/> }
           />
         </GoogleMapReact>
       </div>
