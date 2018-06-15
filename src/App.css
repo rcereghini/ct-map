@@ -22,7 +22,7 @@
   height:100%;
 }
 .eventBox{
-  height:24.22%;
+  height:24.25%;
   width:250px;
   border:5px solid #00aeef;
   border-left:none;
@@ -39,6 +39,6 @@
 }
 .eventBox-bottom{
   border-bottom-right-radius: 3px;
-  border-bottom: 7px solid #00aeef;
+  border-bottom: 5px solid #00aeef;
 
 }
