@@ -1,5 +1,5 @@
 .header{
-  background-color: black;
+  background-color: white;
   padding:20px;
   color:white;
   margin-top:0;
@@ -7,7 +7,7 @@
 }
 
 .mapHolder{
-  background-color:black;
+  background-color:white;
   display:flex;
   justify-content: center;
 }
@@ -15,4 +15,31 @@
 .fullPage{
   height:100vh;
   min-height:100vh;
+}
+.eventContainer{
+  display:flex;
+  flex-direction:column;
+  height:71vh;
+}
+.eventBox{
+  height:140px;
+  width:250px;
+  border:7px solid #00aeef;
+  border-left:none;
+  background-color:#3C4951;
+  color:white;
+  text-align:center;
+  line-height:1.36em;
+  font-family:'MyriadPro';
+  border-bottom:0;
+  box-shadow: 5px 5px 5px #888888;
+
+}
+.eventBox-top{
+  border-top-right-radius: 3px;
+}
+.eventBox-bottom{
+  border-bottom-right-radius: 3px;
+  border-bottom: 7px solid #00aeef;
+
 }

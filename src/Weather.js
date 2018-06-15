@@ -7,5 +7,3 @@ ReactDOM.render(
   <OpenWeatherMap city="Phoenix" country="AZ" appid="f4eefd3c18771e9e63d4f6dbb0d2c10c" />,
   document.getElementById('root')
 )
-
-export default Weather
