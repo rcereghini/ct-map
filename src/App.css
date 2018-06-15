@@ -1,0 +1,18 @@
+.header{
+  background-color: black;
+  padding:20px;
+  color:white;
+  margin-top:0;
+  text-align:center;
+}
+
+.mapHolder{
+  background-color:black;
+  display:flex;
+  justify-content: center;
+}
+
+.fullPage{
+  height:100vh;
+  min-height:100vh;
+}
