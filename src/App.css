@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'Myriad Pro Light';
+    src: url(MyriadPro-Light.otf);
+}
+
 .header{
   padding:20px;
   color:white;
-  background: linear-gradient(to right, rgba(81,100,111,.9), rgba(60,73,81,.9), rgba(81,100,111,.9));;
+  background: linear-gradient(to right, rgba(61,80,91,.9), rgba(50,63,71,.9), rgba(61,80,91,.9));
   margin-bottom:60px;
-  margin-top:0;
+  margin-top:-1;
   text-align:center;
 }
 
@@ -17,23 +22,26 @@
   height:100vh;
   min-height:100vh;
   background: linear-gradient(to bottom, white, #E1F7FF);
-  background-image:url('http://duibe7slt06r7.cloudfront.net/Live/Binaries/en-US/images/downtown-phoenix-arizona-with-pink-sunset-in-the-background_tcm61-44907.jpg');
+  background-image:url('https://thumbs.dreamstime.com/b/phoenix-arizona-skyline-view-downtown-mountains-background-37392901.jpg');
   background-size: cover;
 }
 .eventContainer{
   display:flex;
   flex-direction:column;
+  justify-content:center;
   height:72vh;
 }
 .eventBox{
+  padding-top:18px;
   height:18vh;
   width:250px;
   border:5px solid #00aeef;
-  background: linear-gradient(to bottom, rgba(81,100,111,.6), #3C4951);
+  background: linear-gradient(to bottom, rgba(61,80,91,.9), rgba(50,63,71,.9));;
   color:white;
   text-align:center;
-  line-height:1em;
-  font-family:'MyriadPro';
+  line-height:.7em;
+  font-family:'Myriad Pro Light';
+  font-weight:100;
   border-bottom:0;
   box-shadow: 0 2px 8px 2px rgba(20,23,28,.25);
   z-index:2;

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Myriad Pro Light';
+    src: url(MyriadPro-Light.otf);
+}
+
 .google-map{
   border:5px solid #00aeef;
   box-shadow: 0 2px 8px 2px rgba(20,23,28,.2);
@@ -9,17 +14,17 @@
 }
 
 .whiteBox{
-  background:white;
   width: 400px;
-  margin-top:70px;
-  margin-left:-77px;
+  margin-top:75px;
+  margin-left:-70px;
   z-index:2;
   padding:7px 10px;
-  font-size:30px;
+  font-size:34px;
   text-align:center;
-  font-family:'MyriadPro';
+  font-family:'Myriad Pro Light';
   box-shadow: 0 2px 8px 2px rgba(20,23,28,.3);
   color:white;
   background: linear-gradient(to right, rgba(60,73,81,.7), rgba(81,100,111,.7), rgba(60,73,81,.7));
-  transform: rotateZ(-35deg);
+  background: rgba(0,174,239,.7);
+  transform: rotateZ(-37deg);
 }
