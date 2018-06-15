@@ -13,7 +13,7 @@ export default class Map extends Component {
 
 render() {
     return (
-      <div className='google-map' style={{height: '70vh', width: '70%'}} >
+      <div className='google-map' style={{height: '100%', width: '70%'}} >
         <GoogleMapReact
           bootstrapURLKeys={{ key: 'AIzaSyAyesbQMyKVVbBgKVi2g6VX7mop2z96jBo' }}
           defaultCenter={ this.props.center }
