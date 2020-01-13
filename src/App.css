@@ -1,57 +1,66 @@
 @font-face {
-    font-family: 'Myriad Pro Light';
-    src: url(MyriadPro-Light.otf);
+  font-family: "Myriad Pro Light";
+  src: url(./assets/fonts/MyriadPro-Light.otf);
 }
 
-.header{
-  padding:20px;
-  color:white;
-  background: linear-gradient(to right, rgba(61,80,91,.9), rgba(50,63,71,.9), rgba(61,80,91,.9));
-  margin-bottom:60px;
-  margin-top:-1;
-  text-align:center;
+.header {
+  padding: 20px;
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgba(61, 80, 91, 0.9),
+    rgba(50, 63, 71, 0.9),
+    rgba(61, 80, 91, 0.9)
+  );
+  margin-bottom: 60px;
+  margin-top: -1;
+  text-align: center;
 }
 
-.mapHolder{
-  display:flex;
-  height:71vh;
+.mapHolder {
+  display: flex;
+  height: 71vh;
   justify-content: center;
 }
 
-.fullPage{
-  height:100vh;
-  min-height:100vh;
-  background: linear-gradient(to bottom, white, #E1F7FF);
-  background-image:url('https://thumbs.dreamstime.com/b/phoenix-arizona-skyline-view-downtown-mountains-background-37392901.jpg');
+.fullPage {
+  height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, white, #e1f7ff);
+  background-image: url("https://thumbs.dreamstime.com/b/phoenix-arizona-skyline-view-downtown-mountains-background-37392901.jpg");
   background-size: cover;
 }
-.eventContainer{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  height:72vh;
+.eventContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72vh;
 }
-.eventBox{
-  padding-top:18px;
-  height:18vh;
-  width:250px;
-  border:5px solid #00aeef;
-  background: linear-gradient(to bottom, rgba(61,80,91,.9), rgba(50,63,71,.9));;
-  color:white;
-  text-align:center;
-  line-height:.7em;
-  font-family:'Myriad Pro Light';
-  font-weight:100;
-  border-bottom:0;
-  box-shadow: 0 2px 8px 2px rgba(20,23,28,.25);
-  z-index:2;
-  display:flex;
-  flex-direction:column;
+.eventBox {
+  padding-top: 18px;
+  height: 18vh;
+  width: 250px;
+  border: 5px solid #00aeef;
+  background: linear-gradient(
+    to bottom,
+    rgba(61, 80, 91, 0.9),
+    rgba(50, 63, 71, 0.9)
+  );
+  color: white;
+  text-align: center;
+  line-height: 0.7em;
+  font-family: "Myriad Pro Light";
+  font-weight: 100;
+  border-bottom: 0;
+  box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.25);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
 }
-.eventBox-top{
+.eventBox-top {
   border-top-right-radius: 3px;
 }
-.eventBox-bottom{
+.eventBox-bottom {
   border-bottom-right-radius: 3px;
   border-bottom: 5px solid #00aeef;
 }
